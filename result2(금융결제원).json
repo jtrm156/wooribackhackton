@@ -1,0 +1,271 @@
+{
+    "api_tran_id": "ea8db4dd-0cf5-4523-9aeb-6471a3f080f7", //거래고유번호(API)
+    "rsp_code": "A0000",                                   //응답코드(API)    
+    "rsp_message": "",                                     //응답메시지(API)
+    "api_tran_dtm": "20210502072916268",                   //거래일시(밀리세컨드)
+    "bank_tran_id": "M202112175U000000012",                //거래고유번호(참가기관)
+    "bank_tran_date": "20190101",                          //거래일자(참가기관)
+    "bank_code_tran": "097",                               //응답코드를 부여한 참가기관표준코드
+    "bank_rsp_code": "000",                                //응답코드(참가기관)
+    "bank_rsp_message": "",                                //응답메시지(참가기관)
+    "fintech_use_num": "120211217588932285306315",         //핀테크이용번호
+    "balance_amt": "1000000",                              //계좌잔액
+    "page_record_cnt": "25",
+    "next_page_yn": "Y",
+    "befor_inquiry_trace_info": "",
+    "bank_name": "우리은행",                                //은행이름
+    "savings_bank_name": "",
+    "res_list": [                                          // 조회된 거래내역(해당값들은 수정가능)
+        {                                                  
+            "tran_date": "20190123",                       //거래일자
+            "tran_time": "010101",                         //거래시간
+            "inout_type": "입금",                          //입출금구분(입급,출금,지급)
+            "tran_type": "급여",                           //거래구분(현금,대체,급여,태항환 등)
+            "print_content": "소고기",                     //통장인자내용
+            "tran_amt": "1000000",                         //거래금액
+            "after_balance_amt": "5000000",                //거래후잔액 
+            "branch_name": "분당점"                         //거래점명
+        },
+        ///////////////////////이하동일 금융결제원에서 받은 데이터값으로 바로바로 수정가능(지금 넣은 데이터는 테스트용으로 임의로 넣었음)
+        {
+            "tran_date": "20190124",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "돼지고기",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190125",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "GS25",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190126",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "커피빈",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190127",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "고수찜닭",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        },
+        {
+            "tran_date": "20190101",
+            "tran_time": "010101",
+            "inout_type": "입금",
+            "tran_type": "급여",
+            "print_content": "오픈상여금",
+            "tran_amt": "1000000",
+            "after_balance_amt": "5000000",
+            "branch_name": "분당점"
+        }
+    ]
+}

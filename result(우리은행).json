@@ -1,0 +1,54 @@
+{
+    "dataHeader": {},
+    "dataBody": {
+        "GRID_CNT": "3",                        //계좌건수
+        "GRID": [                               //계좌목록리스트
+            {
+                "TRN_DT": "2021-04-29",         //거래일자
+                "TRN_TM": "121322",             //거래시각
+                "TRN_SRNO": "7",                //거래일련번호
+                "CUCD": "KRW",                  //통화코드
+                "PBOK_PRNG_OTLN_CD": "0318",    //통화인자적요코드
+                "DPS_RAP_KDCD": "200",          //수신입지급종류코드
+                "MD_KDCD": "MIBMPSB2",          //매체종류코드
+                "RCV_AM": "0.000",              //입금금액
+                "PAY_AM": "779000.000",         //출금금액
+                "DPS_BAL": "413600000.000",     //거래후잔액
+                "TRN_TXT": "홍길동",             //거래내용
+                "PID_SQ": "0",                  //납입회차
+                "TRN_STCD": "195400000.000"
+            },
+            /////////////이하동일 해당 데이터는 우리은행 오픈api 호출 시 오는 더미 데이터값
+            {
+                "TRN_DT": "2021-04-25",
+                "TRN_TM": "081050",
+                "TRN_SRNO": "4",
+                "CUCD": "KRW",
+                "PBOK_PRNG_OTLN_CD": "0318",
+                "DPS_RAP_KDCD": "200",
+                "MD_KDCD": "MIBMPSB2",
+                "RCV_AM": "092000.000",
+                "PAY_AM": "0.000",
+                "DPS_BAL": "495300000.000",
+                "TRN_TXT": "카드취소",
+                "PID_SQ": "0",
+                "TRN_STCD": "128500000.000"
+            },
+            {
+                "TRN_DT": "2021-04-02",
+                "TRN_TM": "174257",
+                "TRN_SRNO": "0",
+                "CUCD": "KRW",
+                "PBOK_PRNG_OTLN_CD": "0318",
+                "DPS_RAP_KDCD": "100",
+                "MD_KDCD": "MIBMPSB2",
+                "RCV_AM": "0.000",
+                "PAY_AM": "356000.000",
+                "DPS_BAL": "698500000.000",
+                "TRN_TXT": "월급여",
+                "PID_SQ": "0",
+                "TRN_STCD": "078400000.000"
+            }
+        ]
+    }
+}
